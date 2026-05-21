@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Changa+One:ital@0;1&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Sekuya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+
+:root {
+  --backgroundColor: rgb(255, 145, 0)0% 30%, aqua 80% 100%;
+}
+
+::-webkit-scrollbar{
+  width: 1px;
+  background: black;
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+
+}
+
+
+body {
+
+  background: radial-gradient(circle at bottom right, var(--backgroundColor));
+}
+
+/*  FOR NAVIGATION SECTION    */
+
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  gap: 270px;
+  align-items: center;
+  font-family: "Changa One";
+  position: sticky;
+  top: 0;
+  background-color: transparent;
+  backdrop-filter: blur(2px);
+  box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: flex;
+  transform: translate(10px, 0);
+}
+
+.logo p {
+  display: flex;
+  align-items: center;
+  color: transparent;
+  font-weight: 400;
+  font-family: "Sekuya";
+  -webkit-text-stroke: 1px black;
+
+
+
+}
+
+.homePage a,
+.aboutUs a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+
+.homePage:hover,
+.aboutUs:hover,
+.add:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+
+
+/*  END OF NAVIGATION SECTION  */
+
+
+
+/*       START OF SUB SECTION       */
+
+.subSection {
+  display: flex;
+  background-color: transparent;
+  justify-content: space-around;
+  margin-top: 2vh;
+  height: 40px;
+
+}
+
+
+.plantsTypes {
+  font-family: "Exo 2";
+  font-weight: 600;
+}
+
+.plantsTypes:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.plantsTypes:active {
+  text-decoration: underline;
+  cursor: pointer;
+  color: white;
+}
+
+
+.search {
+  width: 150px;
+  border-radius: 15px;
+  border: solid 1px gray;
+  padding-left: 10px;
+  height: 3vh;
+  background-color: transparent;
+  font-family: "Exo 2";
+  font-weight: 600;
+}
+
+.search::placeholder {
+  padding-left: 30px;
+  color: black;
+
+}
+
+
+
+/*   END OF SUB SECTION  */
+
+
+
+
+/* START OF TEXT SECTION */
+
+
+.information{
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 40px;
+  font-family: "Exo 2";
+  font-weight: 500;
+  font-size: large;
+}
+
+.information span h1{
+  display: inline;
+  font-family: "Exo 2";
+  margin-left: 35vw;
+  
+}
+
+
+
+
+
+/*  END OF TEXT SECTION */
+
+
+
+
+/* START OF ARTICLE SECTION   */
+
+.plantsMainPage {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 100px 100px 100px;
+  grid-auto-flow: row;
+  row-gap: 30vh;
+  justify-content: space-around;
+  margin-top: 10vh;
+}
+
+.plantsItems {
+  height: 30vh;
+  width: 15vw;
+}
+
+
+.plantsInfo {
+  height: 100%;
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+
+.plantsInfo img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  transition: 0.2s;
+
+}
+
+.plantsItems span {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 10%;
+}
+
+
+.plantsInfo img:hover {
+  width: 102%;
+  height: 102%;
+  transition: 0.2s;
+  cursor: pointer;
+  border-radius: 10px;
+  object-fit: cover;
+  z-index: -1;
+}
+
+
+
+/*  END OF ARTICLE SECTION */
+
+
+
+
+
+/* START OF FOOTER SECTION */
+
+.footerSection {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 63px;
+  align-items: center;
+  font-family: "Changa One";
+  margin-top: 170px;
+  background-color: rgba(136, 136, 136, 0.308);
+}
+
+.footerSection div a {
+  color: black;
+  text-decoration: none;
+}
+
+.footerSection div img {
+  height: 20px;
+}
+
+/*  END OF FOOTER SECTION */

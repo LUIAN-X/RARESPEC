@@ -1,0 +1,109 @@
+
+
+
+body {
+  font-family: Arial;
+  text-align: center;
+  margin: 0;
+  background: rgb(254, 225, 225);
+}
+
+header {
+  background: rgb(13, 13, 48);
+  color: rgb(1, 58, 118);
+  padding: 15px;
+  border: none;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 0;
+  margin-top: 9px;
+  opacity: 0;
+  animation: slidedown 2s ease forwards;
+}
+
+@keyframes slidedown {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+header h1 {
+  font-size: 45px;
+  color: white;
+}
+
+header p {
+  width: 95%;
+  margin: auto;
+  font-size: 20px;
+  color: white;
+}
+
+/* Buttons */
+.buttons {
+  margin: 25px;
+}
+
+button {
+  padding: 12px 20px;
+  margin: 8px;
+  border: none;
+  border-radius: 25px;
+  background: #2d3436;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 10px 30px black;
+}
+
+button:hover {
+  background: #00b894;
+  transform: scale(1.1);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  transform: translateY(150px);
+  opacity: 0;
+  animation: slideup 2s ease forwards;
+  backdrop-filter: blur(20px);
+  outline: 4px double black;
+  outline-offset: 4px;
+}
+
+@keyframes slideup {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.container p {
+  color: rgb(12, 12, 42);
+}
+
+.card {
+  background: white;
+  width: 368.5px;
+  margin: 8px;
+  padding: 8px;
+  border-radius: 0;
+  box-shadow: 0 0 8px gray;
+  overflow: hidden;
+}
+
+.card img {
+  width: 95%;
+  height: 270px;
+  border-radius: 0;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.card img:hover {
+  transform: scale(1.15) translateY(-5px);
+}
