@@ -1,11 +1,10 @@
 
-
-
 body {
   font-family: Arial;
   text-align: center;
   margin: 0;
   background: rgb(254, 225, 225);
+  color: white;
 }
 
 header {
