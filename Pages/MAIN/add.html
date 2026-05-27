@@ -14,17 +14,17 @@
   <div class="container">
 
 
-
     <div class="imageArea">
-     <input type="file" accept="image/*" id="upload" hidden>
-     <label for="upload">
-     <img src="../../icons/UPLOAD.png" height="100px">
-     <h4> UPLOAD IMAGE  OF SPECIES</h4>
-    </label>
 
-      
-  
-      <!-- <img src="../../images/PLANTS/Jade Vines.webp" alt=""> -->
+      <div class="imageBox">
+
+        <input type="file" accept="image/*" id="imageFile" hidden>
+        <label for="imageFile">
+          <img src="../../icons/UPLOAD.png" id="picture">
+
+        </label>
+      </div>
+
     </div>
 
 
@@ -37,13 +37,13 @@
 
 
     <div class="description">
-      <textarea autocomplete="off" placeholder="Enter Description"></textarea>
+      <textarea autocomplete="off" placeholder="Enter Description" spellcheck="false"></textarea>
     </div>
 
-
     <button type="submit">SUBMIT</button>
-
   </div>
+
+  <script src="add.js"></script>
 </body>
 
 </html>
