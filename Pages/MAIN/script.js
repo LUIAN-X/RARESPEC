@@ -28,6 +28,11 @@ addImg.addEventListener("mouseleave", () => {
   }
 });
 
+let add=document.getElementById('add');
+add.addEventListener("click",function(){
+  location.replace("add.html");
+})
+
 
 
 
