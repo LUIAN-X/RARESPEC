@@ -62,6 +62,7 @@ back.addEventListener("mouseleave", () => {
 
 
 
+
 //  LOGIC OF  SUBMIT BUTTON
 
 const submit = document.getElementById("submit");
@@ -72,6 +73,9 @@ submit.addEventListener("click", () => {
 
     if (selectedFile && name && comment) {
         alert('posted sucessfully')
+
+          location.reload();
+
     }
     else {
         alert("please fill every table")
@@ -86,4 +90,4 @@ submit.addEventListener("click", () => {
 // .................................
 
 
-// try
+
