@@ -10,38 +10,47 @@
 
 <body>
 
+  <div class="goBack">
+    <button id="back">
+      <img src="../../icons/Back.png">
+      <h5 id="textToShow">GO BACK</h5>
+    </button>
+
+  </div>
+
+
+
 
   <div class="container">
-
-
     <div class="imageArea">
-
       <div class="imageBox">
-
         <input type="file" accept="image/*" id="imageFile" hidden>
         <label for="imageFile">
-          <img src="../../icons/UPLOAD.png" id="picture">
+          <img id="picture">
 
         </label>
+
       </div>
+
 
     </div>
 
 
-
     <div class="name">
-
-      <input type="text" placeholder="Enter The Name">
-
+      <input type="text" placeholder="Enter The Name" id="name" autocomplete="off">
     </div>
 
 
     <div class="description">
-      <textarea autocomplete="off" placeholder="Enter Description" spellcheck="false"></textarea>
+      <textarea autocomplete="off" placeholder="Enter Description" spellcheck="false" id="comment"></textarea>
     </div>
 
-    <button type="submit">SUBMIT</button>
+    <div class="buttons">
+      <button class="submit" id="submit">SUBMIT</button>
+    </div>
   </div>
+
+
 
   <script src="add.js"></script>
 </body>

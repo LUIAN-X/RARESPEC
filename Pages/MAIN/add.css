@@ -26,13 +26,55 @@
 
 
 
+body{
+  display: grid;
+  grid-template-columns: 11vw auto;
+}
 
-.main{
-  display:grid;
-  grid-template-columns: auto;
+/*    START OF GO BACK SECTION */
+
+.goBack{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.goBack button{
+  background-color:transparent;
+  height: 40px;
+  width: 90px;
+  border: none;
+  font-family:Verdana;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 6%;
+  position:relative;
+  box-shadow: 5px 5px 10px 1px rgba(128, 128, 128, 0.377),inset 0px 0px 10px rgba(80, 77, 77, 0.178);
+  border-radius: 10%;
+  
+
+
+
+}
+.goBack button:hover{
+  background-color: rgba(133, 125, 125, 0.042);
+  border-radius: 50%;
+  height: 14%;
+  
+}
+.goBack button:active{
+  background-color: rgba(255, 255, 255, 0.049);
+}
+.goBack button h5{
+  color: rgba(44, 42, 42, 0.705);
+  font-family:'Roboto';
+  margin-top: 07%;
+  display:none;
 }
 
 
+
+/* END OF GO BACK SECTION */
 
 
 
@@ -46,7 +88,7 @@ height: 100%;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-gap:40px;
+gap:50px;
 
 }
 
@@ -69,6 +111,7 @@ gap:40px;
   align-items: center;
   background-color: rgba(240, 240, 240, 0.363);
   margin-top: 10vh;
+  box-shadow: 5px 5px 10px 1px rgba(128, 128, 128, 0.377);
 }
 
 .imageBox{
@@ -89,15 +132,18 @@ gap:40px;
   align-items: center;
 }
 
-.imageBox label img{
+
+#picture{
   height: 100%;
   width: 100%;
   object-fit:cover;
   cursor: pointer;
   border-radius:10px;
+  background-image: url(../../icons/UPLOAD.png);
+  background-repeat: no-repeat;
+  background-size:80%;
+  background-position: center;
 }
-
-
 
 
 
@@ -113,8 +159,8 @@ gap:40px;
 
 
 .name input{
-  height: 40px;
-  width: 250px;
+  height: 100%;
+  width:90%;
   border-radius: 8px;
   border: 1px solid rgba(0, 0, 0, 0.719);
   background-color: transparent;
@@ -122,12 +168,13 @@ gap:40px;
   font-family: "Changa One";
   color:rgb(0, 0, 0);
   font-size:25px;
+  box-shadow: 5px 5px 10px 1px rgba(128, 128, 128, 0.377);
   
   
 }
 
  .name input::placeholder{
-  padding-left: 65px;
+  padding-left:25%;
   color:rgb(0, 0, 0);
   font-size: medium;
 
@@ -155,6 +202,7 @@ gap:40px;
  font-size: medium;
  padding-left: 20px;
  padding-top: 5px;
+ box-shadow: 5px 5px 10px 1px rgba(128, 128, 128, 0.377);
 }
 
 .description textarea::placeholder{
@@ -175,7 +223,15 @@ gap:40px;
 
 /*  BUTTON */
 
-button{
+
+.buttons{
+  display: flex;
+  flex-direction:column;
+  
+
+}
+
+.submit{
   background-color:transparent;
   height: 40px;
   width: 90px;
@@ -185,15 +241,27 @@ button{
   font-size: 15px;
   font-weight: 500;
   cursor: pointer;
+  padding: 6%;
+  box-shadow: 5px 5px 10px 1px rgba(128, 128, 128, 0.377);
+
+
 }
 
-button:hover{
+.submit:hover{
   background-color: rgba(0, 0, 0, 0.042);
   font-size:14px;
 }
 
-button:active{
+.submit:active{
   background-color: rgba(255, 255, 255, 0.049);
   font-size: 16px;
 }
+
+
+
+
+
+
+
+
 /*   END OF BUTTON */
