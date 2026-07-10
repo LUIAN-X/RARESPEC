@@ -73,7 +73,7 @@ select.addEventListener("change", function () {
 // FOR ANIMALS
 
 
-select.addEventListener("change", function () {
+select.addEventListener("change", function () { 
 
   if (this.value === "animals") {
     window.location.assign("../ANIMALS/animal.html");

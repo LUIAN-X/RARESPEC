@@ -33,11 +33,8 @@ function showSlider(type){
         webDom.classList.add('prev');
     }
     clearTimeout(runTimeout);
-    runTimeout= setTimeout(() =>{
-webDom.classList.remove('next');
-webDom.classList.remove('prev');
-    }
-    ,timeRunning)
+   
+    
     clearTimeout(runAutoRun);
     runAutoRun= setTimeout(()=>{
  nextDom.click();
