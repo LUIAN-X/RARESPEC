@@ -35,7 +35,7 @@ getImage.addEventListener("change", function () {
 let back = document.getElementById("back");
 
 back.addEventListener("click", () => {
-    location.replace("index.html");
+    location.replace("../INDEX/index.html");
 });
 
 // ........................................

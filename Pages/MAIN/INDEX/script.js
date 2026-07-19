@@ -30,7 +30,7 @@ addImg.addEventListener("mouseleave", () => {
 
 let add=document.getElementById('add');
 add.addEventListener("click",function(){
-  location.replace("add.html");
+  location.replace("../ADDSPECIES/add.html");
 })
 
 
@@ -70,7 +70,7 @@ select.addEventListener("change", function () {
 
 select.addEventListener("change", function () {
   if (this.value === "plants") {
-    window.location.assign("../PLANTS/plantsMain/plants.html");
+    window.location.assign("../../PLANTS/plantsMain/plants.html");
   }
 });
 
@@ -78,10 +78,10 @@ select.addEventListener("change", function () {
 // FOR ANIMALS
 
 
-select.addEventListener("change", function () { 
+select.addEventListener("change", function () {
 
   if (this.value === "animals") {
-    window.location.assign("../ANIMALS/animal.html");
+    window.location.assign("../../ANIMALS/animal.html");
   }
 });
 
@@ -92,7 +92,7 @@ select.addEventListener("change", function () {
 select.addEventListener("change", function () {
 
   if (this.value === "birds") {
-    window.location.assign("../BIRDS/birds.html");
+    window.location.assign("../../BIRDS/birds.html");
   }
 });
 
