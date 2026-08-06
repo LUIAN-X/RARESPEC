@@ -11,9 +11,16 @@ a{
     text-decoration: none;
     color: azure;
 }
+header nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+}
 header{
-    width: 1140px;
-    max-width: 80%;
+    width: 100%;
+    max-width: 1140px;
+     padding: 0 20px;
     margin: auto ;
     height: 50px;
     display: flex;
@@ -44,11 +51,11 @@ header a{
 .web .list .item .content{
     position: absolute;
     top: 20%;
-    width: 1140px;
-    max-width: 80%;
+    width: 100%;
+    max-width: 1140px;
     left: 50% ;
     transform: translateX(-50%);
-    padding-right: 30% ;
+    padding:0  20px ;
     box-sizing: border-box;
     color: aliceblue;
     text-shadow: 0 5px 10px #0004;
@@ -292,10 +299,9 @@ header a{
 }
    
  .card{
-  width: 300px;
-  height: 150px;
-  overflow: hidden;
-  position: relative;
+    width:100%;
+    max-width:300px;
+    margin:auto;
 }
 .card img {
   width: 100%;
@@ -410,11 +416,10 @@ h1{
     margin: 0;
 }
 .robo {
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(3,auto);
-    gap: 20px;
-    padding: 20px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    
 }
 .card img{
     transition:0.4s;
@@ -581,8 +586,7 @@ body{
 }
 
 .footer form {
-    display: flex;
-    margin-top: 10px;
+     flex-wrap:wrap;
 }
 
 .footer input {
