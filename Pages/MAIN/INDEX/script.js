@@ -117,4 +117,29 @@ select.addEventListener("change", function () {
 
 
 
+//    FOR RESPONSIVE  OF SMALL MOBILE SCREENS
+
+//  FOR NAVIGATION BAR
+let nav = document.getElementById("nav")
+const menu = document.getElementById("hamBurger");
+nav.style.left = "-50%";
+menu.addEventListener("click", (e) => {
+  
+
+  if (nav.style.left ==="-50%") {
+    nav.style.left = "2%";
+    nav.style.transition="left 0.2s linear"
+  }
+
+  else  {
+    nav.style.left = "-50%";
+    nav.style.transition="left 0.2s linear"
+  }
+
+
+
+
+})
+
+
 
