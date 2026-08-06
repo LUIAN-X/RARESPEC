@@ -2338,6 +2338,7 @@ body {
   background-color: transparent;
   font-family: "Exo 2";
   font-weight: 600;
+  color: white;
 }
 
 .search::placeholder {
