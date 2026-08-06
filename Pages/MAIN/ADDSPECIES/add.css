@@ -8,6 +8,13 @@
 
 }
 
+body{
+    background: url(../../../images/HOME/bg4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
 
 
 
@@ -506,6 +513,7 @@
 body {
   display: grid;
   grid-template-columns: 11vw auto;
+
 }
 
 /*    START OF GO BACK SECTION */

@@ -6,6 +6,9 @@
 /*       RESPONSIVENESS    */
 
 /*   FOR MOBILE SCREENS    */
+body{
+  background: url(../../../images/HOME/bg2.jpg);
+}
 
 @media (min-width: 320px) and (max-width: 425px) {
   * {
@@ -144,6 +147,7 @@
     text-align: center;
     background-color: rgba(94, 136, 136, 0.171);
     border-radius: 20px;
+    
   }
 
   .chitwanLocation {
@@ -166,6 +170,11 @@
   /* .............................. */
 
   /*   FOR RARA CONSERVATION AREA */
+
+#rara{
+  color: rgb(206, 42, 42);
+}
+
 
   .raraConservationArea {
     height: 100%;
@@ -206,6 +215,7 @@
     text-align: center;
     background-color: rgba(94, 136, 136, 0.171);
     border-radius: 20px;
+    color: white;
   }
 
   .raraLocation {
@@ -396,12 +406,21 @@
   /* .............................. */
 
   /*   FOR RARA CONSERVATION AREA */
+#rara{
+  background-color:cadetblue ;
+}
+
 
   .raraConservationArea {
     height: 100%;
     display: flex;
     flex-direction: column;
   }
+
+ .raraConservationArea h1 {
+  color: whitesmoke;
+  }
+
   .raraConservationPic {
     border: 1px solid black;
     border-radius: 3%;
@@ -437,6 +456,7 @@
     text-align: center;
     background-color: rgba(94, 136, 136, 0.171);
     border-radius: 20px;
+    color: white;
   }
 
   .raraLocation {
@@ -670,6 +690,7 @@
     text-align: center;
     background-color: rgba(94, 136, 136, 0.171);
     border-radius: 20px;
+    
   }
 
   .raraLocation {
@@ -883,7 +904,9 @@
 
   /*   FOR RARA CONSERVATION AREA */
 
- 
+ #rara{
+  background-color: rgba(36, 172, 142, 0.61);
+ }
   .raraConservationArea {
     display: flex;
     flex-direction: column;
@@ -928,9 +951,10 @@
     line-height: 8vh;
     text-align: center;
     width: 100%;
-    background-color: rgba(94, 136, 136, 0.171);
+    background-color: rgba(94, 136, 136, 0.801);
     border-radius: 20px;
     margin-top: 8%;
+    color: white;
   }
 
   .raraLocation {
@@ -956,6 +980,9 @@
   width: 93%;
   height: 105%;
   
+}
+.raraConservationArea .conservationName h1{
+  color:whitesmoke
 }
 /* .................. */
 

@@ -16,7 +16,7 @@
 }
 
 body {
-  background-color: darkblue;
+  background:url(../../../images/HOME/bg3.jpg);
 }
 
 /*  FOR NAVIGATION SECTION    */
@@ -29,7 +29,6 @@ body {
   font-family: "Changa One";
   position: sticky;
   top: 0;
-  background-color: transparent;
   backdrop-filter: blur(2px);
   box-shadow: 3px 2px 10px white;
   z-index: 1;
@@ -38,7 +37,10 @@ body {
 .logo {
   display: flex;
   transform: translate(10px, 0);
+ 
 }
+
+
 
 .logo p {
   display: flex;
@@ -801,6 +803,11 @@ body {
 }
 
 /*   END OF ARTICLE SECTION   */
+
+
+
+
+
 
 /*   START OF FOOTER SECTION   */
 
