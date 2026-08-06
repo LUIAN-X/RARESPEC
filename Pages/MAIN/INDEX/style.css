@@ -804,26 +804,87 @@ body {
 
 /*   START OF FOOTER SECTION   */
 
-.footerSection {
-  background-color: transparent;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  height: 60px;
-  align-items: center;
-  font-family: "Changa One";
-  margin-top: 80px;
-  background-color: wheat;
+.footer {
+  width: 100%;
+    background: #0d1f1a;
+    color: #d6cfc7;
+    padding: 50px 20px 20px;
+
 }
 
-.footerSection div a {
-  color: wheat;
-  text-decoration: none;
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 10px;
+
 }
 
-.footerSection div img {
-  height: 20px;
-  color: #faf3e0;
+.footer-log {
+    flex: 1;
+    min-width: 200px;
 }
+
+.footer-log h2,
+.footer-log h3 {
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.footer-log p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-log a {
+    display: block;
+    color: #d6cfc7;
+    text-decoration: none;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.footer-log a:hover {
+    color: #7ed957;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.footer form {
+    display: flex;
+    margin-top: 10px;
+}
+
+.footer input {
+    padding: 8px;
+    border: none;
+    outline: none;
+    width: 70%;
+}
+
+.footer button {
+    padding: 8px 12px;
+    border: none;
+    background: #7ed957;
+    color: black;
+    cursor: pointer;
+}
+
+.footer button:hover {
+    background: #5fbf4a;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 13px;
+    border-top: 1px solid #333;
+    padding-top: 10px;
+}
+
 
 /* END OF FOOTER SECTION   */
